@@ -1,0 +1,51 @@
+[2024-11-12T01:00:21.245+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-12T01:00:21.258+0100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_bash_operator.runme_2 scheduled__2024-11-11T00:00:00+00:00 [queued]>
+[2024-11-12T01:00:21.266+0100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_bash_operator.runme_2 scheduled__2024-11-11T00:00:00+00:00 [queued]>
+[2024-11-12T01:00:21.266+0100] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-12T01:00:21.286+0100] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): runme_2> on 2024-11-11 00:00:00+00:00
+[2024-11-12T01:00:21.289+0100] {standard_task_runner.py:72} INFO - Started process 30683 to run task
+[2024-11-12T01:00:21.293+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_2', 'scheduled__2024-11-11T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', '/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg-path', '/tmp/tmprf1dplhd']
+[2024-11-12T01:00:21.294+0100] {standard_task_runner.py:105} INFO - Job 31: Subtask runme_2
+[2024-11-12T01:00:21.343+0100] {task_command.py:467} INFO - Running <TaskInstance: example_bash_operator.runme_2 scheduled__2024-11-11T00:00:00+00:00 [running]> on host sakana
+[2024-11-12T01:00:21.434+0100] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_bash_operator' AIRFLOW_CTX_TASK_ID='runme_2' AIRFLOW_CTX_EXECUTION_DATE='2024-11-11T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-11T00:00:00+00:00'
+[2024-11-12T01:00:21.435+0100] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-12T01:00:21.436+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-12T01:00:21.436+0100] {logging_mixin.py:190} INFO - Current task name:runme_2 state:running start_date:2024-11-12 00:00:21.258974+00:00
+[2024-11-12T01:00:21.436+0100] {logging_mixin.py:190} INFO - Dag name:example_bash_operator and current dag run status:running
+[2024-11-12T01:00:21.437+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-12T01:00:21.438+0100] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-11-12T01:00:21.438+0100] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "example_bash_operator__runme_2__20241111" && sleep 1']
+[2024-11-12T01:00:21.448+0100] {subprocess.py:99} INFO - Output:
+[2024-11-12T01:00:21.449+0100] {subprocess.py:106} INFO - example_bash_operator__runme_2__20241111
+[2024-11-12T01:00:22.381+0100] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-12T01:00:22.402+0100] {process_utils.py:132} INFO - Sending 15 to group 30683. PIDs of all processes in the group: [30685, 30683]
+[2024-11-12T01:00:22.403+0100] {process_utils.py:87} INFO - Sending the signal 15 to group 30683
+[2024-11-12T01:00:22.403+0100] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-11-12T01:00:22.404+0100] {subprocess.py:117} INFO - Sending SIGTERM signal to process group
+[2024-11-12T01:00:22.417+0100] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/operators/bash.py", line 257, in execute
+    result = self._run_inline_command(bash_path=bash_path, env=env)
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/operators/bash.py", line 284, in _run_inline_command
+    return self.subprocess_hook.run_command(
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/hooks/subprocess.py", line 104, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3095, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-11-12T01:00:22.433+0100] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-12T01:00:22.433+0100] {logging_mixin.py:190} INFO - Task start:2024-11-12 00:00:21.258974+00:00 end:2024-11-12 00:00:22.432191+00:00 duration:1.173217
+[2024-11-12T01:00:22.434+0100] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): runme_2> dag:<DAG: example_bash_operator> dagrun:<DagRun example_bash_operator @ 2024-11-11 00:00:00+00:00: scheduled__2024-11-11T00:00:00+00:00, state:running, queued_at: 2024-11-12 00:00:07.281242+00:00. externally triggered: False>
+[2024-11-12T01:00:22.434+0100] {logging_mixin.py:190} INFO - Failure caused by Task received SIGTERM signal
+[2024-11-12T01:00:22.434+0100] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=example_bash_operator, task_id=runme_2, run_id=scheduled__2024-11-11T00:00:00+00:00, execution_date=20241111T000000, start_date=20241112T000021, end_date=20241112T000022
+[2024-11-12T01:00:22.463+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-12T01:00:22.496+0100] {process_utils.py:80} INFO - Process psutil.Process(pid=30685, status='terminated', started='01:00:20') (30685) terminated with exit code None
+[2024-11-12T01:00:22.498+0100] {process_utils.py:80} INFO - Process psutil.Process(pid=30683, status='terminated', exitcode=2, started='01:00:20') (30683) terminated with exit code 2

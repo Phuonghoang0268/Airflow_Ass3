@@ -1,0 +1,197 @@
+[2024-11-11T00:25:45.010+0100] {processor.py:186} INFO - Started process (PID=6684) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:25:45.011+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:25:45.013+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.012+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:25:45.023+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:25:45.144+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.143+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_task_group
+[2024-11-11T00:25:45.163+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.162+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_task_group
+[2024-11-11T00:25:45.179+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.179+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_task_group
+[2024-11-11T00:25:45.205+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.204+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2024-11-11T00:25:45.220+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.220+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2024-11-11T00:25:45.237+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.236+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2024-11-11T00:25:45.252+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.251+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2024-11-11T00:25:45.252+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.252+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:25:45.267+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.267+0100] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2024-11-11T00:25:45.268+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:25:45.268+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:25:45.309+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.306 seconds
+[2024-11-11T00:26:53.646+0100] {processor.py:186} INFO - Started process (PID=6895) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:26:53.651+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:26:53.653+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:26:53.653+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:26:53.662+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:26:53.679+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:26:53.679+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:26:53.690+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:26:53.689+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:26:53.714+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.075 seconds
+[2024-11-11T00:27:49.363+0100] {processor.py:186} INFO - Started process (PID=6973) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:27:49.368+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:27:49.370+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:27:49.370+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:27:49.379+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:27:49.395+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:27:49.395+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:27:49.406+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:27:49.406+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:27:49.427+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2024-11-11T00:28:44.777+0100] {processor.py:186} INFO - Started process (PID=7074) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:28:44.782+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:28:44.784+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:28:44.783+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:28:44.795+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:28:44.816+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:28:44.816+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:28:44.827+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:28:44.827+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:28:44.845+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.075 seconds
+[2024-11-11T00:29:40.199+0100] {processor.py:186} INFO - Started process (PID=7154) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:29:40.204+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:29:40.205+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:29:40.205+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:29:40.214+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:29:40.231+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:29:40.231+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:29:40.244+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:29:40.243+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:29:40.261+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2024-11-11T00:30:35.010+0100] {processor.py:186} INFO - Started process (PID=7234) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:30:35.015+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:30:35.017+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:30:35.017+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:30:35.027+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:30:35.043+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:30:35.043+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:30:35.054+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:30:35.054+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:30:35.071+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2024-11-11T00:31:30.644+0100] {processor.py:186} INFO - Started process (PID=7309) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:31:30.650+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:31:30.656+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:31:30.655+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:31:30.679+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:31:30.700+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:31:30.700+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:31:30.713+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:31:30.712+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:31:30.730+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2024-11-11T00:32:25.895+0100] {processor.py:186} INFO - Started process (PID=7382) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:32:25.900+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:32:25.902+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:32:25.902+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:32:25.911+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:32:25.928+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:32:25.928+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:32:25.939+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:32:25.939+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:32:25.956+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2024-11-11T00:33:21.792+0100] {processor.py:186} INFO - Started process (PID=7469) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:33:21.797+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:33:21.799+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:33:21.799+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:33:21.808+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:33:21.824+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:33:21.824+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:33:21.836+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:33:21.835+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:33:21.854+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2024-11-11T00:34:17.826+0100] {processor.py:186} INFO - Started process (PID=7557) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:34:17.830+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:34:17.832+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:34:17.832+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:34:17.841+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:34:17.857+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:34:17.857+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:34:17.868+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:34:17.868+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:34:17.888+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2024-11-11T00:35:15.081+0100] {processor.py:186} INFO - Started process (PID=7635) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:35:15.086+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:35:15.093+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:35:15.092+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:35:15.116+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:35:15.135+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:35:15.135+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:35:15.146+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:35:15.146+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:35:15.164+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2024-11-11T00:36:08.301+0100] {processor.py:186} INFO - Started process (PID=7707) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:36:08.307+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:36:08.309+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:36:08.309+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:36:08.321+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:36:08.340+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:36:08.339+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:36:08.353+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:36:08.353+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:36:08.377+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2024-11-11T00:37:04.368+0100] {processor.py:186} INFO - Started process (PID=7778) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:37:04.374+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:37:04.377+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:37:04.377+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:37:04.391+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:37:04.410+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:37:04.410+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:37:04.423+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:37:04.423+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:37:04.450+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.096 seconds
+[2024-11-11T00:38:02.025+0100] {processor.py:186} INFO - Started process (PID=7855) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:38:02.029+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:38:02.031+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:38:02.031+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:38:02.041+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:38:02.060+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:38:02.060+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:38:02.072+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:38:02.072+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:38:02.097+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2024-11-11T00:38:55.150+0100] {processor.py:186} INFO - Started process (PID=7957) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:38:55.155+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:38:55.158+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:38:55.158+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:38:55.173+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:38:55.191+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:38:55.191+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:38:55.202+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:38:55.202+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:38:55.241+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.102 seconds
+[2024-11-11T00:39:52.275+0100] {processor.py:186} INFO - Started process (PID=8107) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:39:52.280+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:39:52.282+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:39:52.282+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:39:52.292+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:39:52.310+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:39:52.310+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:39:52.325+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:39:52.324+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:39:52.357+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.088 seconds
+[2024-11-11T00:43:07.978+0100] {processor.py:186} INFO - Started process (PID=8471) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:43:07.984+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:43:07.988+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:43:07.987+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:43:08.000+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:43:08.021+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:43:08.020+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:43:08.034+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:43:08.034+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:43:08.055+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2024-11-11T00:45:33.508+0100] {processor.py:186} INFO - Started process (PID=8758) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:45:33.513+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:45:33.519+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:45:33.518+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:45:33.533+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:45:33.558+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:45:33.558+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:45:33.574+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:45:33.573+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:45:33.596+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.097 seconds
+[2024-11-11T00:46:31.937+0100] {processor.py:186} INFO - Started process (PID=8853) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:46:31.942+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:46:31.944+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:46:31.943+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:46:31.954+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:46:31.974+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:46:31.974+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:46:31.990+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:46:31.990+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:46:32.014+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2024-11-11T00:47:26.614+0100] {processor.py:186} INFO - Started process (PID=8934) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:47:26.619+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:47:26.621+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:47:26.621+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:47:26.633+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:47:26.652+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:47:26.652+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:47:26.665+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:47:26.665+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:47:26.685+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2024-11-11T00:48:23.097+0100] {processor.py:186} INFO - Started process (PID=9024) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:48:23.101+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:48:23.103+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:48:23.103+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:48:23.112+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:48:23.128+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:48:23.128+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:48:23.139+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:48:23.139+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:48:23.159+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2024-11-11T00:49:20.544+0100] {processor.py:186} INFO - Started process (PID=9185) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:49:20.549+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:49:20.552+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:49:20.551+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:49:20.561+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:49:20.577+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:49:20.576+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:49:20.589+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:49:20.588+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:49:20.607+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2024-11-11T00:50:19.201+0100] {processor.py:186} INFO - Started process (PID=9479) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:50:19.206+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:50:19.208+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:50:19.208+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:50:19.218+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:50:19.236+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:50:19.236+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:50:19.253+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:50:19.253+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:50:19.273+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2024-11-11T00:51:18.907+0100] {processor.py:186} INFO - Started process (PID=9555) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:51:18.913+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:51:18.922+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:51:18.920+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:51:18.946+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:51:18.968+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:51:18.968+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:51:18.983+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:51:18.983+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:51:19.005+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.104 seconds
+[2024-11-11T00:52:16.541+0100] {processor.py:186} INFO - Started process (PID=9663) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:52:16.543+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:52:16.547+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:52:16.546+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:52:16.566+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:52:16.601+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:52:16.601+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:52:16.627+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:52:16.627+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:52:16.667+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.140 seconds
+[2024-11-11T00:53:13.344+0100] {processor.py:186} INFO - Started process (PID=9857) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:53:13.345+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:53:13.348+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:53:13.348+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:53:13.363+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:53:13.394+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:53:13.393+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:53:13.420+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:53:13.419+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:53:13.466+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.133 seconds
+[2024-11-11T00:54:12.501+0100] {processor.py:186} INFO - Started process (PID=9931) to work on /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:54:12.507+0100] {processor.py:914} INFO - Processing file /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-11T00:54:12.511+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:54:12.510+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:54:12.526+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-11T00:54:12.544+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:54:12.543+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-11T00:54:12.555+0100] {logging_mixin.py:190} INFO - [2024-11-11T00:54:12.554+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-11T00:54:12.580+0100] {processor.py:208} INFO - Processing /home/sakana/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds

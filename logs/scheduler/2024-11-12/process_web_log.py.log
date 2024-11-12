@@ -1,0 +1,568 @@
+[2024-11-12T01:00:06.567+0100] {processor.py:186} INFO - Started process (PID=30270) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:00:06.568+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:00:06.569+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.569+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:00:06.671+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:00:06.681+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:00:06.809+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.808+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:process_web_log_v1
+[2024-11-12T01:00:06.827+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.827+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:process_web_log_v1
+[2024-11-12T01:00:06.843+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.842+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:process_web_log_v1
+[2024-11-12T01:00:06.869+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.868+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:process_web_log_v1
+[2024-11-12T01:00:06.884+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.884+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:process_web_log_v1
+[2024-11-12T01:00:06.899+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.899+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:process_web_log_v1
+[2024-11-12T01:00:06.915+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.914+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:process_web_log_v1
+[2024-11-12T01:00:06.915+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.915+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:00:06.931+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.931+0100] {dag.py:3262} INFO - Creating ORM DAG for process_web_log_v1
+[2024-11-12T01:00:06.939+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:06.939+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:00:06.964+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.402 seconds
+[2024-11-12T01:00:57.635+0100] {processor.py:186} INFO - Started process (PID=30854) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:00:57.636+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:00:57.638+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:57.638+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:00:57.748+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:00:57.756+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:00:57.775+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:57.775+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:00:57.803+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:00:57.802+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:00:57.834+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.205 seconds
+[2024-11-12T01:02:05.760+0100] {processor.py:186} INFO - Started process (PID=31601) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:02:05.766+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:02:05.769+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:02:05.768+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:02:05.775+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:02:05.785+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:02:05.805+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:02:05.805+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:02:05.828+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:02:05.828+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:02:05.853+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.100 seconds
+[2024-11-12T01:02:38.101+0100] {processor.py:186} INFO - Started process (PID=31860) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:02:38.103+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:02:38.106+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:02:38.106+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:02:38.117+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:02:38.134+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:02:38.165+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:02:38.165+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:02:38.225+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:02:38.225+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:02:38.308+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.221 seconds
+[2024-11-12T01:03:11.268+0100] {processor.py:186} INFO - Started process (PID=32111) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:03:11.273+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:03:11.275+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:03:11.274+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:03:11.279+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:03:11.286+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:03:11.306+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:03:11.305+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:03:11.337+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:03:11.336+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:03:11.368+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.106 seconds
+[2024-11-12T01:03:43.385+0100] {processor.py:186} INFO - Started process (PID=32318) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:03:43.386+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:03:43.393+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:03:43.390+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:03:43.414+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:03:43.425+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:03:43.455+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:03:43.454+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:03:43.501+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:03:43.501+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:03:43.550+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.175 seconds
+[2024-11-12T01:06:34.810+0100] {processor.py:186} INFO - Started process (PID=34149) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:06:34.811+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:06:34.812+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:06:34.812+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:06:34.942+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:06:34.988+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:06:35.014+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:06:35.014+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:06:35.045+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:06:35.045+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:06:35.074+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.273 seconds
+[2024-11-12T01:09:49.762+0100] {processor.py:186} INFO - Started process (PID=4035) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:09:49.763+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:09:49.764+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:09:49.764+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:09:49.864+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:09:49.873+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:09:49.894+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:09:49.894+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:09:49.917+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:09:49.917+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:09:49.955+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.199 seconds
+[2024-11-12T01:10:51.295+0100] {processor.py:186} INFO - Started process (PID=4188) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:10:51.301+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:10:51.306+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:10:51.305+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:10:51.318+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:10:51.332+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:10:51.348+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:10:51.348+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:10:51.366+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:10:51.366+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:10:51.390+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.102 seconds
+[2024-11-12T01:11:23.024+0100] {processor.py:186} INFO - Started process (PID=4220) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:11:23.029+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:11:23.035+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:11:23.034+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:11:23.047+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:11:23.061+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:11:23.078+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:11:23.078+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:11:23.096+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:11:23.096+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:11:23.124+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.107 seconds
+[2024-11-12T01:12:21.575+0100] {processor.py:186} INFO - Started process (PID=4356) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:12:21.580+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T01:12:21.582+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:12:21.581+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:12:21.587+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T01:12:21.595+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v1' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T01:12:21.610+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:12:21.610+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T01:12:21.628+0100] {logging_mixin.py:190} INFO - [2024-11-12T01:12:21.628+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v1 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-12T01:12:21.652+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.084 seconds
+[2024-11-12T16:28:50.801+0100] {processor.py:186} INFO - Started process (PID=6056) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:28:50.802+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:28:50.804+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:50.803+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:28:50.902+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:28:50.911+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:28:51.038+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.038+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:process_web_log_v2
+[2024-11-12T16:28:51.054+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.054+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:process_web_log_v2
+[2024-11-12T16:28:51.067+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.067+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:process_web_log_v2
+[2024-11-12T16:28:51.090+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.090+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:process_web_log_v2
+[2024-11-12T16:28:51.103+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.103+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:process_web_log_v2
+[2024-11-12T16:28:51.116+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.116+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:process_web_log_v2
+[2024-11-12T16:28:51.130+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.129+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:process_web_log_v2
+[2024-11-12T16:28:51.130+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.130+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:28:51.145+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.145+0100] {dag.py:3262} INFO - Creating ORM DAG for process_web_log_v2
+[2024-11-12T16:28:51.152+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:28:51.152+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:28:51.180+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.384 seconds
+[2024-11-12T16:37:28.007+0100] {processor.py:186} INFO - Started process (PID=6563) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:37:28.008+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:37:28.010+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:37:28.010+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:37:28.108+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:37:28.117+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:37:28.138+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:37:28.137+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:37:28.157+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:37:28.157+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:37:28.184+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.182 seconds
+[2024-11-12T16:39:29.954+0100] {processor.py:186} INFO - Started process (PID=6839) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:39:29.955+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:39:29.959+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:39:29.958+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:39:30.059+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:39:30.068+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:39:30.085+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:39:30.085+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:39:30.102+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:39:30.102+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:39:30.147+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.204 seconds
+[2024-11-12T16:40:45.162+0100] {processor.py:186} INFO - Started process (PID=7040) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:40:45.168+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:40:45.172+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:40:45.171+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:40:45.180+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:40:45.195+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:40:45.225+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:40:45.225+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:40:45.270+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:40:45.269+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:40:45.346+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.195 seconds
+[2024-11-12T16:41:22.391+0100] {processor.py:186} INFO - Started process (PID=7115) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:41:22.397+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:41:22.399+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:41:22.399+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:41:22.407+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:41:22.417+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:41:22.434+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:41:22.433+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:41:22.452+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:41:22.452+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:41:22.492+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.110 seconds
+[2024-11-12T16:42:18.842+0100] {processor.py:186} INFO - Started process (PID=7186) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:42:18.847+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:42:18.854+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:42:18.853+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:42:18.870+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:42:18.894+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:42:18.926+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:42:18.926+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:42:18.950+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:42:18.950+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:42:18.997+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.176 seconds
+[2024-11-12T16:43:16.665+0100] {processor.py:186} INFO - Started process (PID=7353) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:43:16.670+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:43:16.674+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:43:16.673+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:43:16.682+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:43:16.692+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:43:16.719+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:43:16.718+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:43:16.748+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:43:16.748+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:43:16.783+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.129 seconds
+[2024-11-12T16:44:15.222+0100] {processor.py:186} INFO - Started process (PID=7440) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:44:15.227+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:44:15.230+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:44:15.229+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:44:15.236+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:44:15.244+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:44:15.266+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:44:15.265+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:44:15.288+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:44:15.288+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:44:15.324+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.109 seconds
+[2024-11-12T16:45:09.026+0100] {processor.py:186} INFO - Started process (PID=7503) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:45:09.027+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:45:09.030+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:45:09.029+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:45:09.037+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:45:09.045+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:45:09.059+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:45:09.059+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:45:09.076+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:45:09.076+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:45:09.101+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.081 seconds
+[2024-11-12T16:46:04.612+0100] {processor.py:186} INFO - Started process (PID=7571) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:46:04.619+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:46:04.623+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:46:04.622+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:46:04.633+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:46:04.643+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:46:04.659+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:46:04.659+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:46:04.677+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:46:04.677+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:46:04.708+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.110 seconds
+[2024-11-12T16:46:41.004+0100] {processor.py:186} INFO - Started process (PID=7669) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:46:41.010+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:46:41.016+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:46:41.015+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:46:41.032+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:46:41.045+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:46:41.062+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:46:41.062+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:46:41.081+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:46:41.081+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:46:41.117+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.119 seconds
+[2024-11-12T16:47:16.338+0100] {processor.py:186} INFO - Started process (PID=7712) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:47:16.342+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:47:16.344+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:47:16.344+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:47:16.349+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:47:16.356+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:47:16.371+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:47:16.371+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:47:16.394+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:47:16.394+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:47:16.425+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.093 seconds
+[2024-11-12T16:48:12.512+0100] {processor.py:186} INFO - Started process (PID=7846) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:48:12.517+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:48:12.519+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:48:12.519+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:48:12.525+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:48:12.533+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:48:12.553+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:48:12.553+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:48:12.581+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:48:12.581+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:48:12.624+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.121 seconds
+[2024-11-12T16:49:10.869+0100] {processor.py:186} INFO - Started process (PID=7933) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:49:10.874+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:49:10.877+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:49:10.876+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:49:10.883+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:49:10.894+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:49:10.913+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:49:10.913+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:49:10.943+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:49:10.942+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:49:10.978+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.117 seconds
+[2024-11-12T16:50:06.984+0100] {processor.py:186} INFO - Started process (PID=8023) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:50:06.989+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:50:06.992+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:50:06.991+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:50:06.999+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:50:07.009+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:50:07.028+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:50:07.027+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:50:07.048+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:50:07.048+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:50:07.072+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.097 seconds
+[2024-11-12T16:51:05.496+0100] {processor.py:186} INFO - Started process (PID=8092) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:51:05.501+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:51:05.503+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:51:05.503+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:51:05.508+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:51:05.516+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:51:05.531+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:51:05.530+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:51:05.554+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:51:05.553+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:51:05.578+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.087 seconds
+[2024-11-12T16:52:01.407+0100] {processor.py:186} INFO - Started process (PID=8185) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:52:01.412+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:52:01.414+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:52:01.414+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:52:01.421+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:52:01.430+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:52:01.448+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:52:01.447+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:52:01.468+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:52:01.468+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:52:01.492+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.097 seconds
+[2024-11-12T16:52:58.670+0100] {processor.py:186} INFO - Started process (PID=8252) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:52:58.675+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:52:58.677+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:52:58.676+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:52:58.682+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:52:58.690+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:52:58.709+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:52:58.708+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:52:58.730+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:52:58.729+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:52:58.756+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.092 seconds
+[2024-11-12T16:53:54.591+0100] {processor.py:186} INFO - Started process (PID=8365) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:53:54.597+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:53:54.600+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:53:54.599+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:53:54.606+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:53:54.614+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:53:54.634+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:53:54.634+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:53:54.666+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:53:54.665+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:53:54.695+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.122 seconds
+[2024-11-12T16:54:26.014+0100] {processor.py:186} INFO - Started process (PID=8479) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:54:26.020+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:54:26.023+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:54:26.023+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:54:26.030+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:54:26.039+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:54:26.061+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:54:26.060+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:54:26.084+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:54:26.084+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:54:26.108+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.102 seconds
+[2024-11-12T16:54:57.310+0100] {processor.py:186} INFO - Started process (PID=8537) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:54:57.312+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:54:57.314+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:54:57.314+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:54:57.319+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:54:57.326+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:54:57.344+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:54:57.344+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:54:57.367+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:54:57.367+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:54:57.399+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.096 seconds
+[2024-11-12T16:55:55.067+0100] {processor.py:186} INFO - Started process (PID=8607) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:55:55.072+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:55:55.074+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:55:55.074+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:55:55.080+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:55:55.088+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:55:55.107+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:55:55.107+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:55:55.128+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:55:55.128+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:55:55.161+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.102 seconds
+[2024-11-12T16:56:54.991+0100] {processor.py:186} INFO - Started process (PID=8682) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:56:54.996+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:56:54.998+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:56:54.998+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:56:55.004+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:56:55.012+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:56:55.028+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:56:55.028+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:56:55.052+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:56:55.051+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:56:55.085+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.099 seconds
+[2024-11-12T16:57:57.086+0100] {processor.py:186} INFO - Started process (PID=8765) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:57:57.091+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:57:57.093+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:57:57.093+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:57:57.099+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:57:57.108+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:57:57.123+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:57:57.123+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:57:57.145+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:57:57.145+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:57:57.178+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.099 seconds
+[2024-11-12T16:58:28.273+0100] {processor.py:186} INFO - Started process (PID=8832) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:58:28.279+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:58:28.281+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:58:28.280+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:58:28.287+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:58:28.295+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:58:28.310+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:58:28.309+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:58:28.328+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:58:28.328+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:58:28.370+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.105 seconds
+[2024-11-12T16:59:29.028+0100] {processor.py:186} INFO - Started process (PID=8911) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:59:29.033+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T16:59:29.036+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:59:29.036+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:59:29.043+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T16:59:29.053+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T16:59:29.069+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:59:29.069+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T16:59:29.091+0100] {logging_mixin.py:190} INFO - [2024-11-12T16:59:29.090+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T16:59:29.122+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.103 seconds
+[2024-11-12T17:00:27.621+0100] {processor.py:186} INFO - Started process (PID=8986) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:00:27.624+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:00:27.626+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:00:27.626+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:00:27.631+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:00:27.638+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:00:27.653+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:00:27.653+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:00:27.676+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:00:27.676+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:00:27.724+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.109 seconds
+[2024-11-12T17:00:59.427+0100] {processor.py:186} INFO - Started process (PID=9016) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:00:59.432+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:00:59.434+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:00:59.434+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:00:59.441+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:00:59.449+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:00:59.464+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:00:59.463+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:00:59.482+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:00:59.482+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:00:59.515+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.096 seconds
+[2024-11-12T17:01:30.954+0100] {processor.py:186} INFO - Started process (PID=9072) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:01:30.959+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:01:30.962+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:01:30.961+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:01:30.967+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:01:30.976+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:01:30.991+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:01:30.990+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:01:31.013+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:01:31.012+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:01:31.048+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.101 seconds
+[2024-11-12T17:19:03.534+0100] {processor.py:186} INFO - Started process (PID=9336) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:19:03.539+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:19:03.541+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:19:03.541+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:19:03.546+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:19:03.553+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:19:03.568+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:19:03.568+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:19:03.586+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:19:03.586+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:19:03.617+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.089 seconds
+[2024-11-12T17:19:42.280+0100] {processor.py:186} INFO - Started process (PID=9589) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:19:42.281+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:19:42.284+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:19:42.283+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:19:42.291+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:19:42.299+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:19:42.317+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:19:42.316+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:19:42.342+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:19:42.341+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:19:42.371+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.099 seconds
+[2024-11-12T17:20:14.959+0100] {processor.py:186} INFO - Started process (PID=9652) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:20:14.965+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:20:14.967+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:20:14.967+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:20:14.975+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:20:14.985+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:20:15.002+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:20:15.002+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:20:15.025+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:20:15.025+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:20:15.075+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.123 seconds
+[2024-11-12T17:20:47.687+0100] {processor.py:186} INFO - Started process (PID=9705) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:20:47.696+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:20:47.699+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:20:47.699+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:20:47.707+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:20:47.722+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:20:47.748+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:20:47.747+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:20:47.774+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:20:47.773+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:20:47.823+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.147 seconds
+[2024-11-12T17:21:22.996+0100] {processor.py:186} INFO - Started process (PID=9749) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:21:23.001+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:21:23.004+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:21:23.004+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:21:23.013+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:21:23.023+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:21:23.044+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:21:23.043+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:21:23.073+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:21:23.072+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:21:23.104+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.124 seconds
+[2024-11-12T17:21:57.279+0100] {processor.py:186} INFO - Started process (PID=9812) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:21:57.280+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:21:57.286+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:21:57.285+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:21:57.297+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:21:57.314+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:21:57.339+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:21:57.339+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:21:57.366+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:21:57.365+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:21:57.418+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.155 seconds
+[2024-11-12T17:22:30.649+0100] {processor.py:186} INFO - Started process (PID=9869) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:22:30.654+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:22:30.657+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:22:30.656+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:22:30.664+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:22:30.675+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:22:30.696+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:22:30.696+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:22:30.725+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:22:30.725+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:22:30.758+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.121 seconds
+[2024-11-12T17:23:07.777+0100] {processor.py:186} INFO - Started process (PID=9915) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:23:07.783+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:23:07.786+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:23:07.785+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:23:07.793+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:23:07.805+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:23:07.828+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:23:07.828+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:23:07.853+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:23:07.853+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:23:07.889+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.124 seconds
+[2024-11-12T17:23:45.924+0100] {processor.py:186} INFO - Started process (PID=10017) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:23:45.929+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:23:45.933+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:23:45.932+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:23:45.943+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:23:45.958+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:23:45.986+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:23:45.985+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:23:46.020+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:23:46.019+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:23:46.125+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.214 seconds
+[2024-11-12T17:24:22.506+0100] {processor.py:186} INFO - Started process (PID=10107) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:24:22.508+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:24:22.511+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:24:22.510+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:24:22.517+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:24:22.527+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:24:22.546+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:24:22.546+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:24:22.573+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:24:22.573+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:24:22.612+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.115 seconds
+[2024-11-12T17:24:58.236+0100] {processor.py:186} INFO - Started process (PID=10172) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:24:58.242+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:24:58.246+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:24:58.245+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:24:58.254+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:24:58.270+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:24:58.296+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:24:58.295+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:24:58.333+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:24:58.332+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:24:58.376+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.148 seconds
+[2024-11-12T17:25:36.127+0100] {processor.py:186} INFO - Started process (PID=10238) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:25:36.133+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:25:36.138+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:25:36.137+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:25:36.144+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:25:36.155+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:25:36.183+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:25:36.183+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:25:36.214+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:25:36.214+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:25:36.251+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.135 seconds
+[2024-11-12T17:26:11.433+0100] {processor.py:186} INFO - Started process (PID=10272) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:26:11.439+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:26:11.441+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:26:11.441+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:26:11.450+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:26:11.463+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:26:11.493+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:26:11.492+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:26:11.528+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:26:11.528+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:26:11.595+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.171 seconds
+[2024-11-12T17:26:47.164+0100] {processor.py:186} INFO - Started process (PID=10342) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:26:47.169+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:26:47.172+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:26:47.172+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:26:47.179+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:26:47.188+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:26:47.213+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:26:47.213+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:26:47.243+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:26:47.243+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:26:47.276+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.121 seconds
+[2024-11-12T17:27:24.556+0100] {processor.py:186} INFO - Started process (PID=10386) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:27:24.562+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:27:24.564+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:27:24.564+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:27:24.572+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:27:24.582+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:27:24.603+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:27:24.603+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:27:24.629+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:27:24.629+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:27:24.668+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.120 seconds
+[2024-11-12T17:28:01.180+0100] {processor.py:186} INFO - Started process (PID=10421) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:28:01.186+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:28:01.190+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:28:01.189+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:28:01.199+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:28:01.211+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:28:01.232+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:28:01.231+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:28:01.262+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:28:01.262+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:28:01.299+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.134 seconds
+[2024-11-12T17:28:36.247+0100] {processor.py:186} INFO - Started process (PID=10513) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:28:36.252+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:28:36.256+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:28:36.255+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:28:36.264+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:28:36.280+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:28:36.305+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:28:36.304+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:28:36.330+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:28:36.330+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:28:36.360+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.123 seconds
+[2024-11-12T17:29:13.240+0100] {processor.py:186} INFO - Started process (PID=10558) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:29:13.246+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:29:13.251+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:29:13.250+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:29:13.269+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:29:13.281+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:29:13.305+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:29:13.305+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:29:13.336+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:29:13.336+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:29:13.402+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.177 seconds
+[2024-11-12T17:29:49.323+0100] {processor.py:186} INFO - Started process (PID=10601) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:29:49.328+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:29:49.333+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:29:49.332+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:29:49.341+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:29:49.354+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:29:49.377+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:29:49.376+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:29:49.404+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:29:49.404+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:29:49.439+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.126 seconds
+[2024-11-12T17:30:25.177+0100] {processor.py:186} INFO - Started process (PID=10646) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:30:25.182+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:30:25.187+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:30:25.186+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:30:25.197+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:30:25.215+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:30:25.245+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:30:25.244+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:30:25.277+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:30:25.277+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:30:25.340+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.178 seconds
+[2024-11-12T17:31:01.477+0100] {processor.py:186} INFO - Started process (PID=10680) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:31:01.483+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:31:01.486+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:31:01.485+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:31:01.496+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:31:01.512+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:31:01.541+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:31:01.541+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:31:01.571+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:31:01.571+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:31:01.670+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.204 seconds
+[2024-11-12T17:31:38.013+0100] {processor.py:186} INFO - Started process (PID=10737) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:31:38.019+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:31:38.023+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:31:38.022+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:31:38.034+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:31:38.052+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:31:38.077+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:31:38.076+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:31:38.105+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:31:38.105+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:31:38.144+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.148 seconds
+[2024-11-12T17:32:13.985+0100] {processor.py:186} INFO - Started process (PID=10770) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:32:13.987+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:32:13.991+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:32:13.990+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:32:13.998+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:32:14.013+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:32:14.041+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:32:14.041+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:32:14.086+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:32:14.086+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:32:14.122+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.149 seconds
+[2024-11-12T17:32:48.060+0100] {processor.py:186} INFO - Started process (PID=10872) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:32:48.065+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:32:48.069+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:32:48.068+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:32:48.075+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:32:48.085+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:32:48.105+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:32:48.105+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:32:48.127+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:32:48.127+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:32:48.157+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.108 seconds
+[2024-11-12T17:33:21.126+0100] {processor.py:186} INFO - Started process (PID=11009) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:33:21.127+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:33:21.131+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:33:21.130+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:33:21.137+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:33:21.147+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:33:21.166+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:33:21.166+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:33:21.189+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:33:21.189+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:33:21.232+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.116 seconds
+[2024-11-12T17:33:54.721+0100] {processor.py:186} INFO - Started process (PID=11083) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:33:54.722+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:33:54.724+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:33:54.724+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:33:54.730+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:33:54.738+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:33:54.754+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:33:54.754+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:33:54.773+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:33:54.773+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:33:54.798+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.085 seconds
+[2024-11-12T17:34:54.441+0100] {processor.py:186} INFO - Started process (PID=11154) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:34:54.446+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:34:54.448+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:34:54.448+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:34:54.454+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:34:54.462+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:34:54.478+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:34:54.477+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:34:54.499+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:34:54.499+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:34:54.535+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.101 seconds
+[2024-11-12T17:35:25.739+0100] {processor.py:186} INFO - Started process (PID=11210) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:35:25.740+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:35:25.743+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:35:25.742+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:35:25.750+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:35:25.758+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:35:25.772+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:35:25.772+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:35:25.791+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:35:25.790+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:35:25.825+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.095 seconds
+[2024-11-12T17:36:23.591+0100] {processor.py:186} INFO - Started process (PID=11279) to work on /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:36:23.596+0100] {processor.py:914} INFO - Processing file /home/sakana/airflow/dags/process_web_log.py for tasks to queue
+[2024-11-12T17:36:23.598+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:36:23.598+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:36:23.604+0100] {logging_mixin.py:190} INFO - /home/sakana/airflow/the_logs/log.txt
+[2024-11-12T17:36:23.611+0100] {processor.py:925} INFO - DAG(s) 'process_web_log_v2' retrieved from /home/sakana/airflow/dags/process_web_log.py
+[2024-11-12T17:36:23.626+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:36:23.626+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T17:36:23.645+0100] {logging_mixin.py:190} INFO - [2024-11-12T17:36:23.645+0100] {dag.py:4180} INFO - Setting next_dagrun for process_web_log_v2 to 2024-11-12 00:00:00+00:00, run_after=2024-11-13 00:00:00+00:00
+[2024-11-12T17:36:23.670+0100] {processor.py:208} INFO - Processing /home/sakana/airflow/dags/process_web_log.py took 0.087 seconds
