@@ -29,10 +29,11 @@ default_args = {
 
 # Define the DAG
 dag = DAG(
-    'process_web_log_v2',
+    dag_id = 'process_web_log_v2',
     default_args=default_args,
     description='A DAG to process web server logs',
     schedule_interval='@daily',
+    tags=["data_workflow"]
 )
 
 # Task 1: Scan for log
