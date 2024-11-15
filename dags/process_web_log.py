@@ -91,3 +91,31 @@ load_data_task = PythonOperator(
 
 # Define the task dependencies
 scan_for_log_task >> extract_data_task >> transform_data_task >> load_data_task
+
+
+import discord
+
+# Define the function to send a message to Discord
+def send_discord_message():
+    TOKEN = 'MTMwNjcyMzI2NDc5NzYwNTk3OA.GM7iLs.TQfbfGpHhrfkiCZKm-LEcQvsF1bz_-CMBMUwoo'
+    CHANNEL_ID = '1306734755399729234'
+
+    client = discord.Client(intents=discord.Intents.default())
+
+    @client.event
+    async def on_ready():
+        channel = client.get_channel(int(CHANNEL_ID))
+        await channel.send('The workflow has been executed successfully!')
+        await client.close()
+
+    client.run(TOKEN)
+
+# Define the task to send a message to Discord
+send_discord_message_task = PythonOperator(
+    task_id='send_discord_message',
+    python_callable=send_discord_message,
+    dag=dag,
+)
+
+# Set the task dependencies
+load_data_task >> send_discord_message_task
