@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
+from airflow.providers.discord.hooks.discord_webhook import DiscordWebhookHook
 from datetime import datetime, timedelta
 import os
 import re
@@ -96,7 +97,7 @@ scan_for_log_task >> extract_data_task >> transform_data_task >> load_data_task
 import discord
 
 # Define the function to send a message to Discord
-def send_discord_message():
+def send_discord_message_task1():
     TOKEN = 'MTMwNjcyMzI2NDc5NzYwNTk3OA.GM7iLs.TQfbfGpHhrfkiCZKm-LEcQvsF1bz_-CMBMUwoo'
     CHANNEL_ID = '1306734755399729234'
 
@@ -105,17 +106,38 @@ def send_discord_message():
     @client.event
     async def on_ready():
         channel = client.get_channel(int(CHANNEL_ID))
-        await channel.send('The workflow has been executed successfully!')
+        await channel.send('The workflow send discord 1 has been executed successfully!')
         await client.close()
 
     client.run(TOKEN)
 
 # Define the task to send a message to Discord
-send_discord_message_task = PythonOperator(
-    task_id='send_discord_message',
-    python_callable=send_discord_message,
+send_discord_message_task1 = PythonOperator(
+    task_id='send_discord_message_task1',
+    python_callable=send_discord_message_task1,
     dag=dag,
 )
 
 # Set the task dependencies
-load_data_task >> send_discord_message_task
+load_data_task >> send_discord_message_task1
+
+# Define a Python callable function
+def send_discord_message_task2():
+    # Use the DiscordWebhookHook
+    hook = DiscordWebhookHook(
+        http_conn_id='discord_default',  # Connection ID defined in Airflow
+        webhook_endpoint='webhooks/1306740551835713548/Pucypy2B8ZUT5NY2L0UWYnnuscVsUI1MBIx5npwXkxJFwVHvAYUKxAbCzwe_OQNUuTju',
+        message='The workflow send discord 2 has been executed successfully!',
+        username='Captain Hook'
+    )
+    # Execute the webhook
+    hook.execute()
+
+
+send_discord_message_task2 = PythonOperator(
+    task_id='send_discord_message_task2',
+    python_callable=send_discord_message_task2,
+    dag=dag,
+)
+
+send_discord_message_task1 >> send_discord_message_task2
