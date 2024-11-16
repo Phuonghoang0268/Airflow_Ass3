@@ -112,7 +112,7 @@ def test_dag_id(dag_id, dag, fileloc):
             dag_id in APPROVED_DAGS
         ), f"{dag_id} is not approved."
 
-# test the tasks for the pwl dag
+# test the tasks for the process_web_log dag
 @pytest.mark.parametrize(
     "dag_id, dag, fileloc", get_dags(), ids=[x[2] for x in get_dags()]
 )
@@ -131,9 +131,12 @@ def test_pwl_dag_task_order(dag_id, dag, fileloc):
         assert transform_task, f"{dag_id} in {fileloc} doesn't have the task transform_data"
         load_task = dag.get_task('load_data')
         assert transform_task, f"{dag_id} in {fileloc} doesn't have the task load_data"
+        send_task = dag.get_task('send_discord_message')
+        assert transform_task, f"{dag_id} in {fileloc} doesn't have the task send_discord_message"
 
         # test the order of the tasks
         assert scan_task.downstream_task_ids == {"extract_data"}
         assert extract_task.downstream_task_ids == {"transform_data"}
         assert transform_task.downstream_task_ids == {"load_data"}
-        assert load_task.upstream_task_ids == {"transform_data"}
+        assert load_task.downstream_task_ids == {"send_discord_message"}
+        assert send_task.upstream_task_ids == {"load_data"}
